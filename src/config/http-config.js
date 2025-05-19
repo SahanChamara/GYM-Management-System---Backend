@@ -6,7 +6,7 @@ const httpConfig = () => ({
   NO_CONTENT: 204,
 
   //Client Error Response
-  BAR_REQUEST: 400,
+  BAD_REQUEST: 400,
   UNAUTHORIZED: 401,
   FORBIDDEN: 403,
   NOT_FOUND: 404,
@@ -24,3 +24,4 @@ const httpConfig = () => ({
 });
 
 export const HTTPSTATUS = httpConfig();
+
